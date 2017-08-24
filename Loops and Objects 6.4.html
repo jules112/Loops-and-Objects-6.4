@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Loops and Objects</h2>
+
+<p id="loopsandobjects"></p>
+
+<script>
+var txt = "";
+var person = {name:"Jules,", salary:"45k,", age:"25,", city:"Los Angeles,", State:"CA",}; 
+var x;
+for (x in person) {
+    txt += person[x] + " ";
+}
+document.getElementById("loopsandobjects").innerHTML = txt;
+</script>
+
+</body>
+</html>
